@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>12 Karat Jewellers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">12 Karat Jewellers</a>
+    <ul class="nav-links">
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#featured">Signature</a></li>
+      <li><a href="#process">Atelier</a></li>
+      <li><a href="#testimonials">Stories</a></li>
+      <li><a href="#newsletter">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="cart-btn">Cart (0)</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 1987 · Rung Mehal</p>
+      <h1 class="hero-title">
+        Where Metal<br>
+        <em>Meets Memory</em>
+      </h1>
+      <p class="hero-sub">Each piece is a meditation on time — wrought from conflict-free gemstones and 18-karat gold, designed to be worn for a lifetime and passed through generations.</p>
+      <div class="hero-ctas">
+        <a href="#collections" class="btn-primary">Explore Collections</a>
+        <a href="#featured" class="btn-ghost">Our Signature Piece</a>
+      </div>
+    </div>
+    <div class="hero-image-side">
+      <div class="hero-jewel-display">
+        <div class="jewel-ring-outer"></div>
+        <div class="jewel-ring-mid"></div>
+        <div class="jewel-ring-inner"></div>
+        <div class="jewel-center"></div>
+        <div class="jewel-dots" id="jewelDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <span class="marquee-item">Conflict-Free Diamonds</span>
+      <span class="marquee-item">18K Gold Craftsmanship</span>
+      <span class="marquee-item">Lifetime Warranty</span>
+      <span class="marquee-item">Free Global Shipping</span>
+      <span class="marquee-item">Bespoke Engraving</span>
+      <span class="marquee-item">Ethical Sourcing</span>
+      <span class="marquee-item">Expert Resizing</span>
+      <span class="marquee-item">Complimentary Gift Wrap</span>
+      <span class="marquee-item">Conflict-Free Diamonds</span>
+      <span class="marquee-item">18K Gold Craftsmanship</span>
+      <span class="marquee-item">Lifetime Warranty</span>
+      <span class="marquee-item">Free Global Shipping</span>
+      <span class="marquee-item">Bespoke Engraving</span>
+      <span class="marquee-item">Ethical Sourcing</span>
+      <span class="marquee-item">Expert Resizing</span>
+      <span class="marquee-item">Complimentary Gift Wrap</span>
+    </div>
+  </div>
+
+  <!-- COLLECTIONS -->
+  <section class="collections" id="collections">
+    <div class="collections-header reveal">
+      <div>
+        <p class="section-label">Our Collections</p>
+        <h2 class="section-title">Crafted to <em>Last Forever</em></h2>
+        <div class="divider"></div>
+      </div>
+      <a href="#" class="view-all">View All Pieces</a>
+    </div>
+    <div class="collections-grid">
+      <div class="collection-card reveal">
+        <div class="card-visual">
+          <div class="card-bg card-bg-1"></div>
+          <div class="card-jewel">
+            <div class="jewel-necklace"></div>
+          </div>
+        </div>
+        <div class="card-info">
+          <p class="card-tag">Bestseller</p>
+          <h3 class="card-name">Lumière Necklace</h3>
+          <p class="card-price">From $2,400</p>
+          <a href="#" class="card-cta">Shop Now →</a>
+        </div>
+      </div>
+      <div class="collection-card reveal reveal-delay-1">
+        <div class="card-visual">
+          <div class="card-bg card-bg-2"></div>
+          <div class="card-jewel">
+            <div class="jewel-ring-card"></div>
+          </div>
+        </div>
+        <div class="card-info">
+          <p class="card-tag">New Arrival</p>
+          <h3 class="card-name">Solstice Ring</h3>
+          <p class="card-price">From $3,800</p>
+          <a href="#" class="card-cta">Shop Now →</a>
+        </div>
+      </div>
+      <div class="collection-card reveal reveal-delay-2">
+        <div class="card-visual">
+          <div class="card-bg card-bg-3"></div>
+          <div class="card-jewel">
+            <div class="jewel-earring">
+              <div class="jewel-earring-piece"></div>
+              <div class="jewel-earring-piece"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-info">
+          <p class="card-tag">Limited Edition</p>
+          <h3 class="card-name">Étoile Earrings</h3>
+          <p class="card-price">From $1,650</p>
+          <a href="#" class="card-cta">Shop Now →</a>
+        </div>
+      </div>
+      <div class="collection-card reveal reveal-delay-3">
+        <div class="card-visual">
+          <div class="card-bg card-bg-4"></div>
+          <div class="card-jewel">
+            <div class="jewel-bracelet"></div>
+          </div>
+        </div>
+        <div class="card-info">
+          <p class="card-tag">Classic</p>
+          <h3 class="card-name">Riviera Bracelet</h3>
+          <p class="card-price">From $1,200</p>
+          <a href="#" class="card-cta">Shop Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCT -->
+  <section class="featured" id="featured">
+    <div class="featured-inner">
+      <div class="featured-visual reveal">
+        <div class="featured-halo"></div>
+        <div class="featured-gem"></div>
+        <div class="featured-badge">Signature<br>Piece<br>2025</div>
+      </div>
+      <div class="featured-content reveal reveal-delay-1">
+        <div class="featured-meta">
+          <span>18K Yellow Gold</span>
+          <span style="color:var(--muted)">·</span>
+          <span>D-VVS1 Diamond</span>
+        </div>
+        <h2 class="featured-title">The <em>Aurène</em><br>Solitaire</h2>
+        <p class="featured-desc">Our defining creation — a 3-carat hexagonal diamond suspended in hand-forged gold, inspired by light refracting through Parisian windows at dusk. Every stone personally selected by our master gemologist.</p>
+        <div class="featured-specs">
+          <div class="spec-item">
+            <p class="spec-label">Cut</p>
+            <p class="spec-val">Hexagonal</p>
+          </div>
+          <div class="spec-item">
+            <p class="spec-label">Clarity</p>
+            <p class="spec-val">VVS1</p>
+          </div>
+          <div class="spec-item">
+            <p class="spec-label">Carat</p>
+            <p class="spec-val">3.0 ct</p>
+          </div>
+          <div class="spec-item">
+            <p class="spec-label">Color</p>
+            <p class="spec-val">D–E</p>
+          </div>
+        </div>
+        <p class="featured-price">$18,500 <small>· Free insured shipping</small></p>
+        <div class="featured-actions">
+          <a href="#" class="btn-primary">Add to Bag</a>
+          <a href="#" class="btn-ghost">Book a Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div style="text-align:center" class="reveal">
+      <p class="section-label">Our Atelier</p>
+      <h2 class="section-title">The Art of <em>Making</em></h2>
+      <div class="divider" style="margin:24px auto 0"></div>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <div class="step-num">01</div>
+        <div class="step-icon">◆</div>
+        <h3 class="step-title">Ethically Sourced</h3>
+        <p class="step-desc">Every stone is hand-selected from certified Kimberley Process mines, ensuring the highest ethical standards and conflict-free provenance.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-num">02</div>
+        <div class="step-icon">◇</div>
+        <h3 class="step-title">Master Crafted</h3>
+        <p class="step-desc">Our Parisian atelier employs goldsmiths trained under the compagnons du devoir tradition, preserving centuries-old techniques.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-num">03</div>
+        <div class="step-icon">○</div>
+        <h3 class="step-title">Precision Set</h3>
+        <p class="step-desc">Each stone is set under magnification using microscopic tools developed in our own workshop over four decades of refinement.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="step-num">04</div>
+        <div class="step-icon">△</div>
+        <h3 class="step-title">Certified & Delivered</h3>
+        <p class="step-desc">Every piece ships with a GIA certificate, independent appraisal, and our personal letter of provenance in a handcrafted wooden box.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials-inner">
+      <div class="testimonials-header reveal">
+        <p class="section-label">Client Stories</p>
+        <h2 class="section-title">Worn with <em>Pride</em></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="testimonial-slider reveal reveal-delay-1">
+        <div class="testimonial active">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-text">"The ring arrived more breathtaking than I could have imagined. Three years later, it still stops people in their tracks. Aurène is simply incomparable."</p>
+          <p class="testimonial-author">— Isabelle M. <span>· Paris, France</span></p>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-text">"I commissioned a bespoke necklace for my mother's 60th birthday. The care and craftsmanship brought her to tears. This is heirloom-level work."</p>
+          <p class="testimonial-author">— James R. <span>· New York, USA</span></p>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-text">"Worth every penny. The Solstice ring has been on my finger every single day for two years and looks as perfect as the day it arrived. Exceptional quality."</p>
+          <p class="testimonial-author">— Nadia K. <span>· Dubai, UAE</span></p>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <div class="t-dot active" data-idx="0"></div>
+        <div class="t-dot" data-idx="1"></div>
+        <div class="t-dot" data-idx="2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="newsletter">
+    <div class="newsletter-inner reveal">
+      <p class="section-label">Stay Connected</p>
+      <h2 class="section-title">Join the <em>Circle</em></h2>
+      <div class="divider"></div>
+      <p class="newsletter-sub" style="margin-top:24px">Receive private previews of new collections, invitations to atelier events, and early access to limited editions — exclusively for our inner circle.</p>
+      <div class="email-form">
+        <input class="email-input" type="email" placeholder="Your email address" />
+        <button class="email-submit">Join</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">AUR<span>È</span>NE</a>
+        <p class="footer-tagline">"Every piece is a conversation between the past and the present, spoken in gold."</p>
+        <div class="footer-social">
+          <a href="#" class="social-link">𝕏</a>
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">◻</a>
+          <a href="#" class="social-link">♪</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Shop</p>
+        <ul class="footer-links">
+          <li><a href="#">Necklaces</a></li>
+          <li><a href="#">Rings</a></li>
+          <li><a href="#">Earrings</a></li>
+          <li><a href="#">Bracelets</a></li>
+          <li><a href="#">Bespoke</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Atelier</p>
+        <ul class="footer-links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Craftsmanship</a></li>
+          <li><a href="#">Gemstones</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Support</p>
+        <ul class="footer-links">
+          <li><a href="#">Sizing Guide</a></li>
+          <li><a href="#">Care Instructions</a></li>
+          <li><a href="#">Returns & Warranty</a></li>
+          <li><a href="#">Book Consultation</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Aurène Fine Jewelry. All rights reserved.</p>
+      <p><a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Accessibility</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Cursor
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+    function animateCursor() {
+      cursor.style.left = mx + 'px'; cursor.style.top = my + 'px';
+      rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12;
+      ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+    document.querySelectorAll('a, button, .collection-card, .t-dot').forEach(el => {
+      el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2.5)'; ring.style.opacity = '0.3'; });
+      el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.opacity = '0.6'; });
+    });
+
+    // Navbar scroll
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Jewel dots
+    const dotContainer = document.getElementById('jewelDots');
+    for (let i = 0; i < 8; i++) {
+      const angle = (i / 8) * Math.PI * 2;
+      const r = 195;
+      const dot = document.createElement('div');
+      dot.className = 'jewel-dot';
+      dot.style.left = (210 + r * Math.cos(angle) - 3) + 'px';
+      dot.style.top = (210 + r * Math.sin(angle) - 3) + 'px';
+      dotContainer.appendChild(dot);
+    }
+
+    // Testimonial slider
+    const testimonials = document.querySelectorAll('.testimonial');
+    const dots = document.querySelectorAll('.t-dot');
+    let current = 0, timer;
+    function showTestimonial(idx) {
+      testimonials[current].classList.remove('active');
+      dots[current].classList.remove('active');
+      current = idx;
+      testimonials[current].classList.add('active');
+      dots[current].classList.add('active');
+    }
+    function nextTestimonial() { showTestimonial((current + 1) % testimonials.length); }
+    timer = setInterval(nextTestimonial, 5000);
+    dots.forEach(d => {
+      d.addEventListener('click', () => {
+        clearInterval(timer);
+        showTestimonial(+d.dataset.idx);
+        timer = setInterval(nextTestimonial, 5000);
+      });
+    });
+
+    // Newsletter submit
+    document.querySelector('.email-submit').addEventListener('click', () => {
+      const input = document.querySelector('.email-input');
+      if (input.value.includes('@')) {
+        input.value = '';
+        input.placeholder = 'Welcome to the circle ◆';
+        setTimeout(() => input.placeholder = 'Your email address', 3000);
+      }
+    });
+  </script>
+</body>
+</html>
